@@ -12,7 +12,7 @@ CHARMAP = tcod.tileset.CHARMAP_CP437
 def main() -> None:
     # Taken from https://dwarffortresswiki.org/index.php/Tileset_repository, made by Zaratustra
     tileset = tcod.tileset.load_tilesheet(
-        "assets/tilesets/Zaratustra_msx.png", 16, 16, CHARMAP,
+        "./assets/tilesets/Zaratustra_msx.png", 16, 16, CHARMAP,
     )
 
     player = Player(int(COLS/2), int(ROWS/2))
